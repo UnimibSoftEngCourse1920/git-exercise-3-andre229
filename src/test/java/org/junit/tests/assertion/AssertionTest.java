@@ -648,4 +648,11 @@ public class AssertionTest {
     public void assertNotEqualsIgnoresFloatDeltaOnNaN() {
         assertNotEquals(Float.NaN, Float.NaN, 1f);
     }
+    
+    @Test
+    public void assertGreaterThanTest() {
+        int n1 = 42;
+        int n2 = 13;
+        Assert.assertGreaterThan(n1, n2, null);
+    }
 }
