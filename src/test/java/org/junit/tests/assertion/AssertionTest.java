@@ -852,6 +852,5 @@ public class AssertionTest {
         Object o1 = new Object();
         Object o2 = new Object();
         Assert.assertGreaterThan(o1, o2, null);
->>>>>>> refs/heads/master
     }
 }
